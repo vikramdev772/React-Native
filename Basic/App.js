@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Image, TouchableOpacity, Text } from 'react-native';
-// import ImagePicker from 'react-native-image-picker';
+
 
 const App = () => {
   const [backgroundImage, setBackgroundImage] = useState(require('./assets/programmer.png'));
