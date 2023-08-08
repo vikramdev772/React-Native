@@ -1,12 +1,11 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import ImageChangeScreen from './Screens/ImageChangeScreen';
-
+import { StatusBar } from "expo-status-bar";
+import { StyleSheet, Text, View } from "react-native";
+import ImageChangeScreen from "./Screens/ImageChangeScreen";
 
 export default function App() {
   return (
     <View style={styles.container}>
-    <ImageChangeScreen/>
+      <ImageChangeScreen />
     </View>
   );
 }
@@ -14,8 +13,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'black',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: "black",
+    alignItems: "center",
+    justifyContent: "center",
   },
 });

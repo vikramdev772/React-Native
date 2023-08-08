@@ -7,9 +7,9 @@ class ImageChangeScreen extends Component {
     this.state = {
       currentImageIndex: 0,
       images: [
-        require('../assets/full-moon.png'),
-        require('../assets/rocket.png'),
-        require('../assets/astronomy.png'),
+        require('../assets/planet-earth.png'),
+        require('../assets/start-up.png'),
+        require('../assets/planets.png'),
       ],
     };
   }
