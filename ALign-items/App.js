@@ -1,13 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Box from './Components/Box';
 
 export default function App() {
   return (
    <View style={styles.container}>
-    <Box style={{backgroundColor: "plum"}}>Box 1</Box>
-   <Box style={{backgroundColor: "greenyellow"}}>Box 2</Box>
-   <Box style={{backgroundColor: "lightblue"}}>Box 3</Box>
-  
+   <Box/>
     </View>
   );
 }
@@ -20,7 +18,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: "stretch",
     marginTop:64,
-    borderWidth: 6,
     borderColor: "red"
   },
+
 });
